@@ -1,0 +1,181 @@
+nav a:hover {
+    color: #ff6000 !important;
+}
+
+nav .nav-item.on a {
+    color: #ff6000 !important;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 20px;
+}
+
+#search h1 {
+    font-weight: bold;
+}
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+
+#contact ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+
+.top-left {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(100px, 100px);
+}
+
+.top-left img{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin-right: 20px;
+}
+
+.container{
+   position: relative;
+}
+
+.text {
+    display: inline-block;
+}
+
+.text h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.text h4 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.main-cards {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.cards{ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  text-align: center;
+  width:auto !important;
+  width: 450px !important;
+  height: 450px !important;
+  margin-bottom: 20px;
+}
+
+.left-card,
+.right-card {
+    flex: 1;
+    padding: 10px;
+    display: flex; /* Use flex display for equal height */
+    flex-direction: column; 
+
+
+    /* flex: 1;
+    padding: 10px;
+    display: inline-block;
+    vertical-align: top; */
+}
+.card h3{
+    color: #ff6000;
+}
+.navbar a{
+    color: #ff6000;
+}
+.navbar a:hover{
+    color: #ff6000;
+}
+.main-cards{
+    width: 100%;
+    display: block;
+}
+
+.item-name {
+    flex: 1;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.item-price {
+    text-align: right;
+    min-width: 200px;
+    margin-left: 40px;
+    color: #ff6000;
+}
+.list li{
+    display: flex;
+    align-items: flex-start;
+}
+
+.item-answer {
+    text-align: right;
+    min-width: 200px;
+    margin-left: 40px;
+}
+
+.card{
+    width: 250px !important;
+    height: 300px !important;
+    margin-bottom: 20px;
+}
+     
+
+.item-answers {
+    text-align: right;
+    min-width: 200px;
+    margin-left: 40px;
+}
+
+.item-names {
+    flex: 1;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.item-starts {
+    text-align: left;
+    align-items: flex-start;
+    min-width: 20px;
+    margin-left: 40px;
+    color: #ff6000;
+}
+
+.card{
+    width: 250px !important;
+    height: 300px !important;
+    margin-bottom: 20px;
+}
+
+.card-details{ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+    width:auto !important;
+    width: 450px !important;
+    height: 500px !important;
+    margin-bottom: 20px;
+    font-size: 15px;
+  }
+
+col-12 col-lg-4{
+    /* padding: 0 5px; */
+}
