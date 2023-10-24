@@ -69,10 +69,14 @@ nav .nav-item.on a {
     font-size: 18px;
 }
 
+@media screen and min-width(768px) {
+    
 .main-cards {
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    width: 50%;
+    flex-wrap: wrap;
+}
 }
 .cards{ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding: 20px;
@@ -89,6 +93,7 @@ nav .nav-item.on a {
     padding: 10px;
     display: flex; /* Use flex display for equal height */
     flex-direction: column; 
+    vertical-align: top;
 
 
     /* flex: 1;
