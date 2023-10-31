@@ -51,6 +51,14 @@ nav .nav-item.on a {
     margin-right: 20px;
 }
 
+.top-left-text{
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+    margin-right: 20px;
+    font-size: 7px;
+}
+
 .container{
    position: relative;
 }
@@ -146,9 +154,9 @@ nav .nav-item.on a {
      
 
 .item-answers {
-    text-align: right;
-    min-width: 200px;
-    margin-left: 40px;
+    /* text-align: right; */
+    /* min-width: 200px;
+    margin-left: 40px; */
 }
 
 .item-names {
@@ -158,10 +166,10 @@ nav .nav-item.on a {
 }
 
 .item-starts {
-    text-align: left;
-    align-items: flex-start;
-    min-width: 20px;
-    margin-left: 40px;
+    /* text-align: left; */
+    /* align-items: flex-start; */
+    /* min-width: 20px;
+    margin-left: 40px; */
     color: #ff6000;
 }
 
@@ -176,8 +184,8 @@ nav .nav-item.on a {
     text-align: center;
     width:auto !important;
     width: 450px !important;
-    height: 500px !important;
-    margin-bottom: 20px;
+    height: 600px !important;
+    /* margin-top: 20px; */
     font-size: 15px;
   }
 
